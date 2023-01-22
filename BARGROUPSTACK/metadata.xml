@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="" minimumThingWorxVersion="8.3.0" name="Bargroupchart" packageVersion="1.0.53" vendor="IoT Centre Lab"></ExtensionPackage>
+    </ExtensionPackages>
+    <Widgets>
+        <Widget name="Bargroupchart">
+            <UIResources>
+                <FileResource description="" file="Bargroupchart.ide.js" isDevelopment="true" isRuntime="false" type="JS" />
+                <FileResource description="" file="Bargroupchart.ide.css" isDevelopment="true" isRuntime="false" type="CSS" />
+                <FileResource description="" file="Bargroupchart.runtime.js" isDevelopment="false" isRuntime="true" type="JS" />
+                <FileResource description="" file="Bargroupchart.runtime.css" isDevelopment="false" isRuntime="true" type="CSS" />
+                <FileResource description="" file="d3.v4.js" isDevelopment="true" isRuntime="true" type="JS" />
+            </UIResources>
+        </Widget>
+    </Widgets>
+</Entities>
