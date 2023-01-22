@@ -11,7 +11,7 @@
 
 <!-- <h4 align="center">A minimal Markdown Editor desktop app built on top of <a target="_blank">Electron</a>.</h4> -->
 
-![Chat Preview](https://github.com/zainuddin-maker/Pie-Chart-/blob/master/test.PNG?raw=true)
+![Chat Preview](https://github.com/zainuddin-maker/Bar-Stack-and-Group-Chart/blob/master/test.PNG?raw=true)
 <!-- ![screenshot](https://github.com/zainuddin-maker/Double-Y-Bar-With-Line-Chart-/blob/master/test.gif?raw=true) -->
 
 
@@ -21,52 +21,53 @@ make a pie chart with the value (in percent) and also the legend of each element
 ## Example Data
 - Data Value
 
-        [
-            {
-                "id": 1,
-                "value": "2"
-            },
-            {
-                "id": 2,
-                "value": "5"
-            },
-            {
-                "id": 1,
-                "value": "2"
-            },
-            {
-                "id": 2,
-                "value": "9"
-            }
-        ]
+            [
+                {
+                    Category: "111",
+                    NPT: 32.2,
+                    PT:67.8,
+                
+                },
+                {
+                    Category: "P2",
+                    NPT: 68.63,
+                    PT:31.37,
+                },
+                {
+                    Category: "P3",
+                    NPT: 100,
+                    PT:0,
+                },
+                {
+                    Category: "P4",
+                    NPT: 100,
+                    PT:0,
+                },
+                {
+                    Category: "P5",
+                    NPT: 100,
+                    PT:0,
+                },
+                {
+                    Category: "P6",
+                    NPT: 100,
+                    PT:0,
+                },
 
-- Data Option
+            ]
 
-        {
-            "color":  [
-                    {
-                        "id": 1,
-                        "value": "#00ff00"
-                    },
-                    {
-                        "id": 2,
-                        "value": "#ff00ff"
-                    }
-                ]
-            ,
-            "type": 
-                [
-                    {
-                        "id": 1,
-                        "value": "Example 1"
-                    },
-                    {
-                        "id": 2,
-                        "value": "Example 2"
-                    }
-                ]
-            
-        }
+- Configuratin Data
+
+            [
+                {
+                    list_type: "NPT,PT",
+                    list_color: "#003800,#f6682e",
+                },
+                 {
+                    list_type: "PT",
+                    list_color: "#f6db0f",
+                }
+            ]
 
 ## Usage example
 

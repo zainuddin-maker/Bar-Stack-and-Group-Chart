@@ -14,7 +14,11 @@ var booleandisplayticklineandlabel = true
 var configuratin_data_temp = [
     {
         list_type: "NPT,PT",
-        list_color: "#003800,#f6682e,#f6db0f",
+        list_color: "#003800,#f6682e",
+    },
+    {
+        list_type: "PT",
+        list_color: "#f6db0f",
     },
     // {
     //     list_type: "type1,type3,type2",
