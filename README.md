@@ -15,8 +15,7 @@
 <!-- ![screenshot](https://github.com/zainuddin-maker/Double-Y-Bar-With-Line-Chart-/blob/master/test.gif?raw=true) -->
 
 
-This application is used to  
-make a pie chart with the value (in percent) and also the legend of each element , this chart generate from  data and the data from  thingworx platform .
+This application is used to create bar charts that can be stacked and grouped, which means that 1 point x axis can have more than 1 bar and each bar can be stacked with another value , this chart generate from  data and the data from  thingworx platform .
 
 ## Example Data
 - Data Value
@@ -77,7 +76,7 @@ make a pie chart with the value (in percent) and also the legend of each element
 
 
 
-after the data is inputted into the chart, we can see what the data is, and the percentage value is automatically calculated, so enter the name and value values, then the application will immediately automatically calculate the data. we can also hover over the chart and then the data name and value in percent will appear
+after the data is inputted into the application, we can see the data in the form of bar charts that are stacked and grouped, we can hover over each bar, and the data will appear, which contains the name and value. and also we can click on the x axis and then it will output a list of values ​​on the x axis.
 
 Every pop up is automatic so it doesn't cross the limit of the given div container
 
